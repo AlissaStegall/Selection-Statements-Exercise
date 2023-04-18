@@ -13,12 +13,12 @@
 
             if (userInput < favNumber)
             {
-                Console.WriteLine($"{userInput} is too low");
+                Console.WriteLine($"{userInput} is too low!");
                
             }
-            else if(userInput > favNumber)
+            if(userInput > favNumber)
             {
-                Console.WriteLine($"{userInput} is too high");
+                Console.WriteLine($"{userInput} is too high!");
 
             }
             else
